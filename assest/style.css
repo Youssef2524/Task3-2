@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.nav1,
+.nav2 {
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url(./lovepik-hengshui-first-middle-school-teaching-building-picture_501291544.jpg);
+    height: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.hero h1 {
+    background-color: aliceblue;
+    font-size: xxx-large;
+    font-weight: revert;
+}
+
+
+#About {
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+    background-color: #0081C9;
+
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+#service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #5BC0F8;
+    height: max-content;
+    padding: 30px;
+}
+
+#service h1 {
+    padding: 40px;
+}
+
+.serv1 {
+    display: flex;
+    /* gap: 97px; */
+    flex-wrap: wrap;
+
+}
+
+.serv2 {
+    padding: 39px;
+}
+
+.serv2 h2 {
+    padding-bottom: 20px;
+}
+
+#service,
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#specialization {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    background-color: #86E5FF;
+    padding: 40px;
+
+
+}
+
+.spec1 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.spec2 {
+    margin-bottom: 55px;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.spec2 h2 {
+    padding-bottom: 10px;
+}
+
+.spec2 p {
+    width: 200px;
+    margin-left: 10px;
+
+}
+
+
+#teachers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: max-content;
+    background-color: #FFC93C;
+}
+
+#teachers h1 {
+    padding: 30px;
+}
+
+.teacher1 {
+    display: flex;
+    gap: 180px;
+    flex-wrap: wrap;
+
+}
+
+.teachers2 {}
+
+.teachers2 .icon {
+    margin-left: 27px;
+    width: 223px;
+}
+
+.teachers2 h1 {
+    text-align: center;
+}
+
+.teachers2 p {
+    width: 181px;
+    margin-left: 46px;
+    text-align: center;
+}
+
+
+#plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: max-content;
+    background-color: #8DCBE6;
+}
+
+#plans h1 {
+    padding: 30px;
+}
+
+.plans1 {
+    display: flex;
+    gap: 140px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 265px;
+    height: 401px;
+    border-radius: 10px;
+}
+
+#plans .plans1 .card h2 {
+    padding-top: 20px;
+}
+
+.box {
+
+    background-color: #FFE69A;
+    border: 2px solid #FFD24C;
+    border-radius: 4px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.li {
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+#plans img {
+    width: 180px;
+}
+
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    background-color: #E3F6FF;
+    text-align: center;
+}
+
+#contact h1 {
+    padding-top: 31px;
+}
+
+.conntact1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-top: 20px;
+}
+
+.contact2 input {
+    width: 300px;
+}
+
+.contact2 button {
+    margin-left: 90px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #26C6DA;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+
+.info {
+    margin-top: 87px;
+
+}
+
+.info h1 {
+    padding-bottom: 31px;
+    margin-left: 25px;
+}
+
+.phone {
+    padding-left: 25px;
+}
+
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
